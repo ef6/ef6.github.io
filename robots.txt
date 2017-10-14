@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://ef6.github.io/sitemap.xml
