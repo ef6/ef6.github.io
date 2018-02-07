@@ -1,0 +1,786 @@
+
+
+  
+    
+  
+
+
+  
+
+
+
+
+
+  
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.35 with theme Tranquilpeak 0.4.3-BETA">
+    <title>小米路由青春版刷机教程</title>
+    <meta name="author" content="Evan">
+    <meta name="keywords" content="路由器">
+
+    <link rel="icon" href="https://avatars3.githubusercontent.com/u/17763501?s=40&amp;v=4">
+    
+
+    
+    <meta name="description" content="
+    
+    
+
+在给小米路由青春版刷机的过程中收集的很多资料，走了一些弯路，最后终于成功了。
+写一篇文章记录下来。
+
+">
+    <meta property="og:description" content="
+    
+    
+
+在给小米路由青春版刷机的过程中收集的很多资料，走了一些弯路，最后终于成功了。
+写一篇文章记录下来。
+
+">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="小米路由青春版刷机教程">
+    <meta property="og:url" content="/2017/10/%E5%B0%8F%E7%B1%B3%E8%B7%AF%E7%94%B1%E9%9D%92%E6%98%A5%E7%89%88%E5%88%B7%E6%9C%BA%E6%95%99%E7%A8%8B/">
+    <meta property="og:site_name" content="Hey Evan">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Hey Evan">
+    <meta name="twitter:description" content="
+    
+    
+
+在给小米路由青春版刷机的过程中收集的很多资料，走了一些弯路，最后终于成功了。
+写一篇文章记录下来。
+
+">
+    
+    
+
+    
+    
+
+    
+      <meta property="og:image" content="https://avatars2.githubusercontent.com/u/17763501?s=460&v=4">
+    
+
+    
+    
+    
+
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.css" integrity="sha256-vuXZ9LGmmwtjqFX1F+EKin1ThZMub58gKULUyf0qECk=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" integrity="sha256-SEa4XYAHihTcEP1f5gARTB2K26Uk8PsndQYHQC1f4jU=" crossorigin="anonymous" />
+    
+    
+    <link rel="stylesheet" href="https://ef6.github.io/css/style-jsjn0006wyhpyzivf6yceb31gvpjatbcs3qzjvlumobfnugccvobqwxnnaj8.min.css" />
+    
+    
+
+    
+      
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="4">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="https://ef6.github.io/">Hey Evan</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="https://ef6.github.io/#about">
+    
+    
+    
+      
+        <img class="header-picture" src="https://avatars2.githubusercontent.com/u/17763501?s=460&amp;v=4" alt="作者的图片" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="4">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="https://ef6.github.io/#about">
+          <img class="sidebar-profile-picture" src="https://avatars2.githubusercontent.com/u/17763501?s=460&amp;v=4" alt="作者的图片" />
+        </a>
+        <h4 class="sidebar-profile-name">Evan</h4>
+        
+          <h5 class="sidebar-profile-bio">❤</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://ef6.github.io/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">首页</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://ef6.github.io/categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+      
+      <span class="sidebar-button-desc">分类</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://ef6.github.io/tags">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
+      
+      <span class="sidebar-button-desc">标签</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://ef6.github.io/archives">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
+      
+      <span class="sidebar-button-desc">归档</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://ef6.github.io/#about">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+      
+      <span class="sidebar-button-desc">关于</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/ef6" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://stackoverflow.com/users/636472/kakawait" target="_blank" rel="noopener">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-stack-overflow"></i>
+      
+      <span class="sidebar-button-desc">Stack Overflow</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://ef6.github.io/index.xml">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+      
+      <span class="sidebar-button-desc">RSS</span>
+    </a>
+  </li>
+
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+
+    </ul>
+  </div>
+</nav>
+
+      
+
+      <div id="main" data-behavior="4"
+        class="
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+            <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title" itemprop="headline">
+      小米路由青春版刷机教程
+    </h1>
+  
+  
+  <div class="postShorten-meta post-meta">
+    
+      <time itemprop="datePublished" datetime="2017-10-14T09:40:00&#43;08:00">
+        
+  
+  
+  
+  
+    2017年 十月 14日
+  
+
+      </time>
+    
+    
+  
+  
+    <span>发布在</span>
+    
+      <a class="category-link" href="https://ef6.github.io/categories/note">note</a>
+    
+  
+
+  </div>
+
+</div>
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <p><video id="J_miwifiliteVideo" width="100%" autoplay="autoplay" style="filter: brightness(100%);">
+    <source src="//c1.mifile.cn/f/i/15/miwifilite/videos/miwifilite.mp4" type="video/mp4">
+    <source src="//c1.mifile.cn/f/i/15/miwifilite/videos/miwifilite.webm" type="video/webm"><br />
+</video>
+在给小米路由青春版刷机的过程中收集的很多资料，走了一些弯路，最后终于成功了。<br />
+写一篇文章记录下来。<br />
+<!--这里是摘录-->
+</p>
+
+<blockquote>
+<p>本文主要参考 <a href="http://bbs.xiaomi.cn/u-thread-22976549">@tianbaoha</a> 的文章</p>
+</blockquote>
+
+<h1 id="table-of-contents">目录</h1><nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#1-准备">1. 准备</a></li>
+<li><a href="#2-升级为官方开发版固件">2. 升级为官方开发版固件</a></li>
+<li><a href="#3-更改官方-root-密码为-admin">3. 更改官方 root 密码为 admin</a></li>
+<li><a href="#4-去除官方-ssh-启动限制-开启-ssh">4. <del>去除官方 SSH 启动限制 开启 SSH</del></a></li>
+<li><a href="#5-连接到路由器">5. 连接到路由器</a></li>
+<li><a href="#6-备份编程器固件">6. 备份编程器固件</a></li>
+<li><a href="#7-刷入-breed">7. 刷入 Breed</a></li>
+<li><a href="#8-进入-breed">8. 进入 Breed</a></li>
+<li><a href="#9-刷入固件">9. 刷入固件</a></li>
+<li><a href="#10-刷回官方固件">10. 刷回官方固件</a></li>
+<li><a href="#参考文章">参考文章</a></li>
+</ul></li>
+</ul>
+</nav>
+
+<hr />
+
+<h2 id="1-准备">1. 准备</h2>
+
+<ul>
+<li><p><a href="http://bbs.xiaomi.cn/t-11546356"><strong>小米路由青春版开发版固件</strong></a></p>
+
+<ul>
+<li>下载 <a href="http://bigota.miwifi.com/xiaoqiang/rom/r1cl/miwifi_r1cl_all_a17e3_2.1.22.bin">miwifi_r1cl_all_a17e3_2.1.22.bin</a><br /></li>
+</ul></li>
+
+<li><p><strong>SSH SFTP 工具</strong></p>
+
+<ul>
+<li><a href="https://www.portablesoft.org/xshell/">Xshell</a>  <code>推荐</code><br /></li>
+<li><a href="https://www.portablesoft.org/xshell-xftp-integrated/">Xshell+Xftp</a>  <code>Xftp有界面方便小白</code><br /></li>
+<li>putty + winscp<br /></li>
+<li>JuiceSSH + andftp  <code>安卓平台</code><br />
+<em>本文使用的是 Xshell</em></li>
+</ul></li>
+
+<li><p><a href="http://www.right.com.cn/forum/thread-161906-1-1.html"><strong>Breed</strong></a>  by @hackpascal</p>
+
+<ul>
+<li><a href="https://breed.hackpascal.net/">breed 下载页面</a> 下载 <a href="https://breed.hackpascal.net/breed-mt7688-reset38.bin">breed-mt7688-reset38.bin</a><br />
+<code>MT7628AN/KN 全通用 波特率 57600 复位键 GPIO#38</code><br />
+<code>小米路由青春版 CPU 为 MT7628N 后缀A为支持双频5G和2.4G都支持 N只支持2.4G</code><br /></li>
+</ul></li>
+
+<li><p><strong>刷入的固件</strong></p>
+
+<ul>
+<li><a href="http://www.right.com.cn/forum/thread-161324-1-1.html">华硕固件</a> <code>稳定</code><br />
+<a href="https://eyun.baidu.com/s/3kV0JV19">下载地址</a> 选择 MI-NANO_3.4.3.9-099.trx 这个版本 青春版专供<br />
+
+<ul>
+<li>后台网址为 192.168.123.1 账号密码都为 admin<br /></li>
+<li>SSID 为 PCDN 默认的密码为 1234567890<br /></li>
+</ul></li>
+<li><a href="http://downloads.pandorabox.com.cn/Snapshoot/2016-09-22/mt7628/PandoraBox-ralink-mt7628-xiaomi-r1cl-squashfs-sysupgrade-2016-09-22-git-3f0accd.bin">潘多拉固件</a> <code>功能多</code><br />
+
+<ul>
+<li>后台的网址为192.168.1.1</li>
+</ul></li>
+</ul></li>
+</ul>
+
+<h2 id="2-升级为官方开发版固件">2. 升级为官方开发版固件</h2>
+
+<p>过程略</p>
+
+<h2 id="3-更改官方-root-密码为-admin">3. 更改官方 root 密码为 admin</h2>
+
+<p>登录 192.168.31.1 后把你浏览器地址栏 url 的 <code>/web/home#router</code> 替换成<br />
+<code>/api/xqsystem/set_name_password?oldPwd=&lt;oldPwd&gt;&amp;newPwd=admin</code><br />
+回车以后网页显示 <strong>{&ldquo;code&rdquo;:0}</strong> 就是成功了。</p>
+
+<p><code>&lt;oldPwd&gt;</code> 为原登录密码，更改后你的新管理密码和 root 密码为 admin</p>
+
+<h2 id="4-去除官方-ssh-启动限制-开启-ssh">4. <del>去除官方 SSH 启动限制 开启 SSH</del></h2>
+
+<p>当初在这步卡了很久，直到看到 <a href="http://bbs.xiaomi.cn/t-12655406-2-o1">小米路由器青春版(mini) 开启SSH 小米路由计算_更改官方root_SSH密码</a> 这篇文章。<br />
+以下是 <a href="http://bbs.xiaomi.cn/u-thread-22976549">@tianbaoha</a> 的原话</p>
+
+<pre><code>我们常说的开启SSH就是启动dropbear程序，启动方法：/etc/init.d/dropbear start
+
+小米在这个启动脚本增加了两个限制，不满足就不让启动：
+1：必须是开发版
+2：nvram参数ssh_en=1
+
+mini和R1D、R2D的ssh_en默认是0，是通过U盘刷机的方式把ssh_en设置成1从而启动SSH的
+而青春版没有usb接口，所以青春版的ssh_en出厂默认就是1
+所以青春版只要刷成开发版dropbear(SSH)就会启动
+</code></pre>
+
+<p>所以此步对于小米路由青春版来说就可以跳过了。</p>
+
+<p>附录一个小米路由器的 ssh 算法 <em>（未验证）</em><br />
+<code>substr(md5(&lt;SN&gt;+&quot;A2E371B0-B34B-48A5-8C40-A7133F3B5D88&quot;),0,8)</code></p>
+
+<h2 id="5-连接到路由器">5. 连接到路由器</h2>
+
+<p>打开 Xshell 在命令窗口输入</p>
+
+<pre><code class="language-sh">$ ssh root:admin@192.168.31.1
+</code></pre>
+
+<p>在 <strong>SSH安全警告</strong> 弹窗中选择 <strong>[接受并保存]</strong><br />
+出现 <code>[MI-NANO /home/root]#</code> 为 ssh 连接成功</p>
+
+<p>新建一个选项卡输入</p>
+
+<pre><code class="language-sh">$ sftp root:admin@192.168.31.1
+</code></pre>
+
+<p>出现 <code>sftp:/home/root&gt;</code> 为 sftp 连接成功</p>
+
+<h2 id="6-备份编程器固件">6. 备份编程器固件</h2>
+
+<p><strong>切记备份编程器固件即 all.bin 文件，否则无法刷回</strong><br />
+顺序输入以下命令</p>
+
+<pre><code class="language-sh">[MI-NANO /home/root]# dd if=/dev/mtd0 of=/tmp/all.bin
+sftp:/home/root&gt; get /tmp/all.bin
+sftp:/home/root&gt; rm /tmp/all.bin
+</code></pre>
+
+<p>下载的 all.bin 储存在 Xshell 目录下的 ./Data/Settings/NetSarang/Xshell/Sessions/ 文件夹里<br />
+<code>注： [MI-NANO /home/root]# 开头的命令意思是在 ssh 选项卡里输入，sftp:/home/root&gt; 是在 sftp 的选项卡里输入，不要把前缀输进去了。下同</code></p>
+
+<h2 id="7-刷入-breed">7. 刷入 Breed</h2>
+
+<p>顺序输入以下命令</p>
+
+<pre><code class="language-sh">sftp:/home/root&gt; cd /tmp
+sftp:/tmp&gt; put
+</code></pre>
+
+<p>在弹出窗口中选择下载的 breed-mt7688-reset38.bin 文件<br />
+输入</p>
+
+<pre><code class="language-sh">[MI-NANO /home/root]# mtd -r write /tmp/breed-mt7688-reset38.bin Bootloader
+</code></pre>
+
+<p>等待机器重新启动</p>
+
+<p><code>注：breed-mt7688-reset38.bin 的文件名可以改，把命令中的bin文件名改成你的就行了</code></p>
+
+<h2 id="8-进入-breed">8. 进入 Breed</h2>
+
+<p>用一根网线把PC和路由器连接。 <code>接在路由器的LAN接口不是蓝色的WAN！</code><br />
+拔掉电源，按住 Reset 不松，接通电源，等黄灯闪烁后松开 Reset<br />
+然后输入 192.168.1.1 进入 breed 界面</p>
+
+<h2 id="9-刷入固件">9. 刷入固件</h2>
+
+<p>界面选择如下</p>
+
+<ul class="task-list">
+<li>固件更新&ndash;常规固件
+
+<ul class="task-list">
+<li><label><input type="checkbox" checked disabled class="task-list-item"> 固件&ndash;[选择文件]  <em>选择你要刷的固件</em></label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> 自动重启</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> 闪存布局&ndash;公版(0x50000)<br /></label></li>
+</ul></li>
+</ul>
+
+<hr />
+
+<h2 id="10-刷回官方固件">10. 刷回官方固件</h2>
+
+<p><code>由于 MT7628 的 breed 没有小米固件的启动项，所以需要用编程器固件刷回！</code><br />
+进入 breed, 界面选择如下</p>
+
+<ul class="task-list">
+<li>固件更新&ndash;编程器固件
+
+<ul class="task-list">
+<li><label><input type="checkbox" checked disabled class="task-list-item"> 编程器固件&ndash;[选择文件]  <em>选择之前备份的 all.bin 文件</em></label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> 自动重启</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> 保留现有 Bootloader<br /></label></li>
+</ul></li>
+</ul>
+
+<hr />
+
+<h2 id="参考文章">参考文章</h2>
+
+<ul>
+<li><a href="http://jingyan.baidu.com/article/9113f81b1cb2f22b3214c729.html">小米路由青春版开启ssh 刷入breed 潘多拉 drcom</a> by <a href="http://bbs.xiaomi.cn/u-thread-22976549">@tianbaoha</a><br /></li>
+<li><a href="http://bbs.xiaomi.cn/t-12655406-2-o1">小米路由器青春版(mini) 开启SSH 小米路由计算_更改官方root_SSH密码</a> by <a href="http://bbs.xiaomi.cn/u-thread-22976549">@tianbaoha</a><br /></li>
+<li><a href="http://www.miui.com/thread-4103188-1-1.html">小米路由器青春版/mini进breed刷固件教程</a><br /></li>
+<li><a href="http://www.miui.com/thread-4149739-1-1.html">小米路由器青春版刷回官方固件教程</a></li>
+</ul>
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">标签</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="https://ef6.github.io/tags/%E8%B7%AF%E7%94%B1%E5%99%A8/">路由器</a>
+
+  <a class="tag tag--primary tag--small" href="https://ef6.github.io/tags/%E5%88%B7%E6%9C%BA/">刷机</a>
+
+                  </div>
+                
+              
+            
+            
+  <div class="post-actions-wrap">
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--disabled">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">下一篇</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://ef6.github.io/2017/09/%E8%87%AA%E7%94%A8%E8%BD%AF%E4%BB%B6%E6%B8%85%E5%8D%95/" data-tooltip="自用软件清单">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">上一篇</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#table-of-contents">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+
+            
+              
+                <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2018 Evan. All Rights Reserved
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="4">
+        
+  <div class="post-actions-wrap">
+      <nav >
+        <ul class="post-actions post-action-nav">
+          
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--disabled">
+              
+                  <i class="fa fa-angle-left"></i>
+                  <span class="hide-xs hide-sm text-small icon-ml">下一篇</span>
+                </a>
+            </li>
+            <li class="post-action">
+              
+                <a class="post-action-btn btn btn--default tooltip--top" href="https://ef6.github.io/2017/09/%E8%87%AA%E7%94%A8%E8%BD%AF%E4%BB%B6%E6%B8%85%E5%8D%95/" data-tooltip="自用软件清单">
+              
+                  <span class="hide-xs hide-sm text-small icon-mr">上一篇</span>
+                  <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+          
+        </ul>
+      </nav>
+    <ul class="post-actions post-action-share" >
+      
+        <li class="post-action hide-lg hide-md hide-sm">
+          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+            <i class="fa fa-share-alt"></i>
+          </a>
+        </li>
+        
+      
+      
+        <li class="post-action">
+          <a class="post-action-btn btn btn--default" href="#disqus_thread">
+            <i class="fa fa-comment-o"></i>
+          </a>
+        </li>
+      
+      <li class="post-action">
+        
+          <a class="post-action-btn btn btn--default" href="#table-of-contents">
+        
+          <i class="fa fa-list"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="4">
+  <i id="btn-close-shareoptions" class="fa fa-close"></i>
+  <ul class="share-options">
+    
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="https://avatars2.githubusercontent.com/u/17763501?s=460&amp;v=4" alt="作者的图片" />
+    
+    <h4 id="about-card-name">Evan</h4>
+    
+      <div id="about-card-bio">❤</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Coder
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+        China
+      </div>
+    
+  </div>
+</div>
+
+    <div id="algolia-search-modal" class="modal-container">
+  <div class="modal">
+    <div class="modal-header">
+      <span class="close-button"><i class="fa fa-close"></i></span>
+      <a href="https://algolia.com" target="_blank" rel="noopener" class="searchby-algolia text-color-light link-unstyled">
+        <span class="searchby-algolia-text text-color-light text-small">by</span>
+        <img class="searchby-algolia-logo" src="https://www.algolia.com/static_assets/images/press/downloads/algolia-light.svg">
+      </a>
+      <i class="search-icon fa fa-search"></i>
+      <form id="algolia-search-form">
+        <input type="text" id="algolia-search-input" name="search"
+          class="form-control input--large search-input" placeholder="搜索" />
+      </form>
+    </div>
+    <div class="modal-body">
+      <div class="no-result text-color-light text-center"></div>
+      <div class="results">
+        
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://ef6.github.io/2017/10/%E5%B0%8F%E7%B1%B3%E8%B7%AF%E7%94%B1%E9%9D%92%E6%98%A5%E7%89%88%E5%88%B7%E6%9C%BA%E6%95%99%E7%A8%8B/">
+                <h3 class="media-heading">小米路由青春版刷机教程</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Oct 10, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p><video id="J_miwifiliteVideo" width="100%" autoplay="autoplay" style="filter: brightness(100%);">
+    <source src="//c1.mifile.cn/f/i/15/miwifilite/videos/miwifilite.mp4" type="video/mp4">
+    <source src="//c1.mifile.cn/f/i/15/miwifilite/videos/miwifilite.webm" type="video/webm"><br />
+</video>
+在给小米路由青春版刷机的过程中收集的很多资料，走了一些弯路，最后终于成功了。<br />
+写一篇文章记录下来。<br />
+<!--这里是摘录-->
+</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="https://ef6.github.io/2017/09/%E8%87%AA%E7%94%A8%E8%BD%AF%E4%BB%B6%E6%B8%85%E5%8D%95/">
+                <h3 class="media-heading">自用软件清单</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Sep 9, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p></p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+      </div>
+    </div>
+    <div class="modal-footer">
+      <p class="results-count text-medium"
+         data-message-zero=""
+         data-message-one=""
+         data-message-other="">
+         2 posts found
+      </p>
+    </div>
+  </div>
+</div>
+    
+  
+    
+    <div id="cover" style="background-image:url('https://ef6.github.io/images/cover-v1.2.0.jpg');"></div>
+  
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
+
+
+<script src="https://ef6.github.io/js/script-qi9wbxp2ya2j6p7wx1i6tgavftewndznf4v0hy2gvivk1rxgc3lm7njqb6bz.min.js"></script>
+
+
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight > code, pre > code').each(function(i, block) {
+    if (!$(this).hasClass('codeblock')) {
+      $(this).addClass('codeblock');
+    }
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = 'https:\/\/ef6.github.io\/2017\/10\/%E5%B0%8F%E7%B1%B3%E8%B7%AF%E7%94%B1%E9%9D%92%E6%98%A5%E7%89%88%E5%88%B7%E6%9C%BA%E6%95%99%E7%A8%8B\/';
+          
+            this.page.identifier = '\/2017\/10\/%E5%B0%8F%E7%B1%B3%E8%B7%AF%E7%94%B1%E9%9D%92%E6%98%A5%E7%89%88%E5%88%B7%E6%9C%BA%E6%95%99%E7%A8%8B\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'hugo-tranquilpeak-theme';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
+  
+
+
+
+    
+  </body>
+</html>
+
