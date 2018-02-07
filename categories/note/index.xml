@@ -17,9 +17,10 @@
       <pubDate>Sat, 14 Oct 2017 09:40:00 +0800</pubDate>
       
       <guid>https://ef6.github.io/2017/10/%E5%B0%8F%E7%B1%B3%E8%B7%AF%E7%94%B1%E9%9D%92%E6%98%A5%E7%89%88%E5%88%B7%E6%9C%BA%E6%95%99%E7%A8%8B/</guid>
-      <description>&lt;p&gt;&lt;video id=&#34;J_miwifiliteVideo&#34; width=&#34;100%&#34; autoplay=&#34;autoplay&#34; style=&#34;filter: brightness(100%);&#34;&gt;
+      <description>&lt;p&gt;&lt;video id=&#34;J_miwifiliteVideo&#34; width=&#34;100%&#34; autoplay=&#34;autoplay&#34; preload=&#34;none&#34; poster=&#34;//c1.mifile.cn/f/i/15/miwifilite/index-miwifilite.jpg&#34; style=&#34;filter: brightness(100%);&#34;&gt;
     &lt;source src=&#34;//c1.mifile.cn/f/i/15/miwifilite/videos/miwifilite.mp4&#34; type=&#34;video/mp4&#34;&gt;
-    &lt;source src=&#34;//c1.mifile.cn/f/i/15/miwifilite/videos/miwifilite.webm&#34; type=&#34;video/webm&#34;&gt;&lt;br /&gt;
+    &lt;source src=&#34;//c1.mifile.cn/f/i/15/miwifilite/videos/miwifilite.webm&#34; type=&#34;video/webm&#34;&gt;
+    &lt;img src=&#34;//c1.mifile.cn/f/i/15/miwifilite/index-miwifilite.png&#34; alt=&#34;&#34;&gt;
 &lt;/video&gt;
 在给小米路由青春版刷机的过程中收集的很多资料，走了一些弯路，最后终于成功了。&lt;br /&gt;
 写一篇文章记录下来。&lt;br /&gt;
