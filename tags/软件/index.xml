@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>软件 on Even - A super concise theme for Hugo</title>
+    <title>软件 on Hey Evan</title>
     <link>https://ef6.github.io/tags/%E8%BD%AF%E4%BB%B6/</link>
-    <description>Recent content in 软件 on Even - A super concise theme for Hugo</description>
+    <description>Recent content in 软件 on Hey Evan</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>zh-cn</language>
     <lastBuildDate>Tue, 12 Sep 2017 09:39:02 +0800</lastBuildDate>
     
 	<atom:link href="https://ef6.github.io/tags/%E8%BD%AF%E4%BB%B6/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>自用软件包</title>
-      <link>https://ef6.github.io/post/%E8%87%AA%E7%94%A8%E8%BD%AF%E4%BB%B6/</link>
+      <title>自用软件清单</title>
+      <link>https://ef6.github.io/2017/09/%E8%87%AA%E7%94%A8%E8%BD%AF%E4%BB%B6%E6%B8%85%E5%8D%95/</link>
       <pubDate>Tue, 12 Sep 2017 09:39:02 +0800</pubDate>
       
-      <guid>https://ef6.github.io/post/%E8%87%AA%E7%94%A8%E8%BD%AF%E4%BB%B6/</guid>
-      <description>浏览器 Cent Browser 压缩软件 Bandizip 轻量级快速免费的压缩管理 系统美化 MacType 美化字体 开发者工具 Anaconda3 python环境集成 Golang Git Xshell5 Visual Studio Code Notepad2-mod Notepad2的分支之一，可替</description>
+      <guid>https://ef6.github.io/2017/09/%E8%87%AA%E7%94%A8%E8%BD%AF%E4%BB%B6%E6%B8%85%E5%8D%95/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>
