@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         rmdown2magnet 草榴转换磁力链
 // @namespace    https://ef6.github.io
-// @version      0.1
+// @version      0.2
 // @description  Automatically convert rmdown to magnet
 // @author       ef6
 // @include      http*://t66y.com/htm_data/*.html
@@ -19,7 +19,7 @@ for(let i=0;i<tx.length;i++){
 		console.log(magnet);
         tx[i].innerText=magnet;
 		tx[i].href=magnet;
-        tx[i].className="t_like"
+        tx[i].className="h f18"
 	}
 }
 
