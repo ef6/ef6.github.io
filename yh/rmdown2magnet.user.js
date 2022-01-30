@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         rmdown2magnet 草榴转换磁力链
+// @name         rmdown2magnet 
 // @namespace    https://ef6.github.io
 // @version      0.4-20220130
-// @description  Automatically convert rmdown to magnet
+// @description  草榴rmdown转换磁力链
 // @author       ef6
 // @include      http*://t66y.com/htm_data/*.html
 // @include      http*://t66y.com/htm_mob/*.html
