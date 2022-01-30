@@ -17,10 +17,11 @@
             for(let n of rlst){
                 let mj=n.querySelector("span[ng-bind*=CRMJ]").innerText;
                 let jg=n.querySelector("span[ng-bind*=ZGBJ]").innerText.slice(1);
-                let dj=(jg*10000)/mj/15;
+                let dj=(jg*10000)/mj;
+                let djm=dj/15;
                 let el = document.createElement("a");
                 el.className="dj-tag color-red font-bold";
-                el.innerText=String.format("{0}万元/亩",dj.toFixed(2));
+                el.innerText=String.format("{0}元/㎡ {1}万元/亩",dj.toFixed(0),djm.toFixed(0));
                 n.querySelector(".resource-list-header").append(el)
             }
         }
