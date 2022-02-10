@@ -1,13 +1,17 @@
 // ==UserScript==
-// @name         rmdown2magnet 
-// @namespace    https://ef6.github.io
-// @version      1.0
+// @name         rmdown2magnet
 // @description  草榴rmdown转换磁力链 2022-02-10
 // @author       ef6
-// @run-at       document-end
+// @namespace    https://ef6.github.io
+// @license      GPL3.0
+// @date         2022.01.18
+// @modified     2022.02.10
+// @version      1.0.1
+// @icon         https://rmdown.com/favicon.ico
 // @match        http*://t66y.com/htm_data/*.html
 // @match        http*://t66y.com/htm_mob/*.html
 // @grant        none
+// @run-at       document-end
 // ==/UserScript==
 
 (function() {
